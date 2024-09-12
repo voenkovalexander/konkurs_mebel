@@ -10,6 +10,7 @@ $(".cat-search>input").keydown(function(event){
 function search (){
     console.log("111")
     var val = $(".cat-search>input").val()
+    val = val.toLowerCase()
 
     $(".product-list>h3").each(function(){
         let card = $(this).closest('.product-item');

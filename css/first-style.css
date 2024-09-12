@@ -124,7 +124,7 @@
     /* justify-content: flex-end; */
 }
 
-.first-button>span{
+.first-button>a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +136,7 @@
     cursor: pointer;
     font-weight: bold;
     color: white;
-
+    text-decoration: none;
 }
 
 /* .first-button>span:hover{
